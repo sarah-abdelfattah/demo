@@ -1,14 +1,9 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "todos": [
+    { "id": 1, "title": "Convert to dark mode", description: "The button to switch between themes", isCompleted: false },
+    { "id": 2, "title": "Integrate APIs", description: "integrate the frontend with the backend", isCompleted: true },
+    { "id": 3, "title": "Set up react app", description: "Start the new project and add the dependencies", isCompleted: true },
+    { "id": 4, "title": "Set up the backend", description: "Set up the backend dependencies such as node", isCompleted: false },
+    { "id": 5, "title": "Styles", description: "Add styles to the project", isCompleted: false },
+  ]
 }
